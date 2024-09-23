@@ -30,5 +30,23 @@
     <footer>
         <p>&copy; 2024 FX Shyam Trader. All rights reserved.</p>
     </footer>
+.course {
+  text-align: center; /* Centers the content */
+  margin-bottom: 40px; /* Adds spacing between courses */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
 </body>
 </html>
