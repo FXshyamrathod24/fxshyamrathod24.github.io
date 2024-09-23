@@ -22,3 +22,11 @@ app.post('/enroll', (req, res) => {
 app.listen(3000, () => {
     console.log('Server running on http://localhost:3000');
 });
+<form action="/enroll" method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <input type="submit" value="Enroll Now">
+</form>
+
